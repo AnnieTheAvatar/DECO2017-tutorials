@@ -1,22 +1,26 @@
 {
-  "name": "deco2017-tutorials",
-  "version": "1.0.0",
-  "description": "deco2017 wk 10 tut",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnnieTheAvatar/DECO2017-tutorials.git"
-  },
-  "keywords": [
-    "deco2017"
-  ],
-  "author": "Annie Lacoba",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnnieTheAvatar/DECO2017-tutorials/issues"
-  },
-  "homepage": "https://github.com/AnnieTheAvatar/DECO2017-tutorials#readme"
+    "name": "deco2017-tutorials",
+    "version": "1.0.0",
+    "description": "deco2017 wk 10 tut",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AnnieTheAvatar/DECO2017-tutorials.git"
+    },
+    "keywords": [
+        "deco2017"
+    ],
+    "author": "Annie Lacoba",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnnieTheAvatar/DECO2017-tutorials/issues"
+    },
+    "homepage": "https://github.com/AnnieTheAvatar/DECO2017-tutorials#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
 }
